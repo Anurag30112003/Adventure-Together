@@ -6,7 +6,7 @@ def index():
    return render_template("index.html")
 
 
-@app.route('/hello')
+@app.route('/signup')
 def hello():
     return render_template("signup.html")
 
