@@ -6,12 +6,19 @@ body , html{
     background-color: #C4C4C4;
     overflow: hidden;
 }
+.topnav img{
+  overflow: hidden;
+  height: 50px; 
+  padding: 0px 0px; 
+  margin: 0px;
+  display:inline-flexbox;
+}
 .topnav a {
-    float: left;
+    float:left;
     display: block;
     color: #575757;
     text-align: center;
-    padding: 14px 16px;
+    padding: 30px 30px;
     text-decoration: none;
     font-size: 17px;
     
@@ -30,4 +37,5 @@ body , html{
   }
   .mainhead{
     font-family: 'Ubuntu', sans-serif;
+      
   }
