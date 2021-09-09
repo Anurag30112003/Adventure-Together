@@ -1,0 +1,33 @@
+body , html{
+  padding: 0px;
+  margin: 0px;
+}
+.topnav{
+    background-color: #C4C4C4;
+    overflow: hidden;
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: #575757;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    
+  }
+  .topnav a:hover {
+    background-color: #FFD304;
+    color: 575757;
+  }
+  
+  /* Add an active class to highlight the current page */
+
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }
+  .mainhead{
+    font-family: 'Ubuntu', sans-serif;
+  }

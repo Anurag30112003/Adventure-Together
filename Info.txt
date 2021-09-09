@@ -1,0 +1,13 @@
+Fonts -  Ubuntu , Quicksand
+               Roboto
+
+Colors -   Yellow      #FFD304 
+
+                           
+ Plain White          #FFFFFF
+
+
+  Grey           #C4C4C4
+
+
+   Font color     #575757
