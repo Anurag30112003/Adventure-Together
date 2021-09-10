@@ -20,7 +20,8 @@ Fonts:
 1. Ubuntu  
 2. Quicksand 
 3. Roboto <br>
-Colors : <br>
+
+Colors : 
 1. Yellow - #FFD304 
 
                            
