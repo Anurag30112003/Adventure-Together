@@ -16,8 +16,10 @@
 7. open localhost or http://127.0.0.1:5000/ (by default)
 
 # UI/UX
-Fonts -  Ubuntu , Quicksand ,Roboto <br>
-
+Fonts:  
+1. Ubuntu  
+2. Quicksand 
+3. Roboto <br>
 Colors : <br>
 1. Yellow - #FFD304 
 
