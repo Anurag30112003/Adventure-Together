@@ -11,12 +11,21 @@
     <title>Adventure Together</title>
 </head>
 <body>
-    <div class="topnav">
-        <a href="#home" class="mainhead"> <img src="static/img/logo1.png" alt=""  >  Adventure Together</a>
-        <a href="#news">News</a>
-        <a href="#contact">Contact</a>
-        <a href="#about">About</a>
-    </div>
+    <div class="logo"><a href="#"><img src="static/img/logo.svg" alt=""></a></div>
+    <nav> 
+        <ul>
+            
+            <li> 
+                <a href="#" class="first">About</a>
+                <a href="signup">SignUp</a>
+                <a href="login">Login</a>
+            </li>
+        </ul>
+    </nav>
     {% block content %}{% endblock %}
+<section>
+    <div class="logobig">
+        <center> <img src="static/img/big.png" alt=""> </center>
+    </div> </section>
 </body>
 </html>
