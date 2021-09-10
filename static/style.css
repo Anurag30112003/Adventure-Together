@@ -2,40 +2,57 @@ body , html{
   padding: 0px;
   margin: 0px;
 }
-.topnav{
-    background-color: #C4C4C4;
-    overflow: hidden;
-}
-.topnav img{
+nav{
+  width: 100%;
+  background-color: #C4C4C4;
   overflow: hidden;
-  height: 50px; 
-  padding: 0px 0px; 
-  margin: 0px;
-  display:inline-flexbox;
 }
-.topnav a {
-    float:left;
-    display: block;
-    color: #575757;
-    text-align: center;
-    padding: 30px 30px;
-    text-decoration: none;
-    font-size: 17px;
-    
-  }
-  .topnav a:hover {
-    background-color: #FFD304;
-    color: 575757;
-  }
+ul{
+  padding: 0;
+  margin: 0 0 0 150px;
+  list-style: none;
+}
+li{
+  float: left;
   
-  /* Add an active class to highlight the current page */
 
+}
+
+li :hover{
+  background-color: #FFD304;
+}
+.logo img{
+  position:absolute;
+  margin-top: 0px;
+  margin-left: 5px;
+  margin-right: 10px;
+  height: 50px;
+}
+.first{
+  margin-left: 200px;
+}
+nav a{
   
-  /* Hide the link that should open and close the topnav on small screens */
-  .topnav .icon {
-    display: none;
-  }
-  .mainhead{
-    font-family: 'Ubuntu', sans-serif;
-      
-  }
+  width: 200px;
+  display: inline-block ;
+  padding: 10px 10px;
+  text-decoration: none;
+  color: #575757;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20p
+  
+}
+.logobig{
+  align-items:center;
+  place-items: center;
+  justify-items: center;
+}
+.logobig img{
+  position: absolute;
+   width: 250px; 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
