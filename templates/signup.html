@@ -1,6 +1,70 @@
-{% extends 'index.html' %}{% block content %}
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="static/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Adventure Together</title>
+</head>
 
-<!-- code -->
+<body>
+    <div class="logo"><a href="/"><img src="static/img/logo.svg" alt=""></a></div>
+    <nav>
+        <ul>
 
-{% endblock %}
+            <li>
+                <a href="#" class="first"><i class="fa fa-info-circle" aria-hidden="true"></i>
+                     About</a>
+
+            </li>
+            <li class="leftnav">
+                <a href="signup"> <i class="fas fa-user-plus"></i> SignUp</a>
+                <a href="login">Login <i class="fas fa-lock"></i></a>
+            </li>
+        </ul>
+    </nav>
+</body>
+<div class="signupim">
+    <img src="static/img/big.png" alt="">
+   <h1>SIGNUP</h1> 
+</div>
+<form>
+    <div class="form-group" style="margin-left:20%; margin-right: 20%;"> 
+        <label for="exampleInputPassword1"></label>
+        <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Username" style="background-color: #C4C4C4;padding: 20px ;">
+      </div>
+    <div class="form-group" style="margin-left:20%; margin-right: 20%;  margin-top: 5% ; ">
+      <label for="exampleInputEmail1"></label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="E-mail" style="background-color: #C4C4C4; padding: 20px ;">
+      <style>::-webkit-input-placeholder {
+        text-align: center;
+        font-family: 'Ubuntu', sans-serif;
+        color: #575757;
+        font-size: 25px;
+      }
+      
+      :-moz-placeholder {
+        text-align: center;
+        font-family: 'Ubuntu', sans-serif;
+        color: #575757;
+      }</style>
+    </div>
+    <div class="form-group" style="margin-left:20%; margin-right: 20%; margin-top: 5%; "> 
+      <label for="exampleInputPassword1"></label>
+      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" style="background-color: #C4C4C4;padding: 20px ;">
+    </div>
+    <div class="form-group" style="margin-left:20%; margin-right: 20%; margin-top: 5%;"> 
+        <label for="exampleInputPassword1"></label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Confirm Password" style="background-color: #C4C4C4;padding: 20px ;">
+      </div>
+    <button type="submit" class="btn btn-primary" style="margin-left:45%; margin-right: 20%; 
+    margin-top: 5%; margin-bottom: 5%; background-color: #FFD304; color: #575757; font-family: 'Quicksand', sans-serif; border-color:#FFD304 ; padding: 20px 35px; font-size: 20px;">SIGN-UP</button>
+  </form>
+</html>
