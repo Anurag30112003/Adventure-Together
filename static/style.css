@@ -40,7 +40,7 @@ nav a{
   color: #575757;
   text-align: center;
   font-family: 'Roboto', sans-serif;
-  font-size: 20p
+  font-size: 20px;
   
 }
 /* .logobig{
@@ -62,3 +62,17 @@ i.fas,
     i.fab {
       font-size: 19px;
     }
+.signupim img{
+  width: 40%;
+}
+.signupim{
+  display: inline-flex;
+}
+.signupim h1{
+  font-family: 'Ubuntu', sans-serif;
+  padding: 30px 30px;
+  margin-top: 15%;
+  margin-left: 60%;
+  margin-right: 50%;
+  
+}
