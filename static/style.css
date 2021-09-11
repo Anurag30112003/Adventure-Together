@@ -51,8 +51,7 @@ nav a{
 .logobig img{
    width: 30%; 
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 18vw;
 
 }
 .leftnav{
@@ -72,7 +71,12 @@ i.fas,
   font-family: 'Ubuntu', sans-serif;
   padding: 30px 30px;
   margin-top: 15%;
-  margin-left: 60%;
-  margin-right: 50%;
+  margin-left:auto;
   
+}
+form{
+  margin-left: 20%;
+}
+a{
+  text-decoration: none;
 }
