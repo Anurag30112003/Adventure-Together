@@ -8,8 +8,8 @@
 4. Create a Virtual environment <br>
    virtualenv venv 
 5. Activate virtual environment <br> 
-   Windows - venv/Scripts/activate <br>
-   Mac/Linux - touch  venv\Scripts\activate 
+   Windows - venv\Scripts\activate <br>
+   Mac/Linux - touch  venv/Scripts/activate 
 6. Install frameworks <br>
    pip install -r requirements.txt 
 7. Run Flask <br>
